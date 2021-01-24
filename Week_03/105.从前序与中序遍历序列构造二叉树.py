@@ -18,6 +18,3 @@ class Solution:
         root.left=self.buildTree(perorder[1:mid_index],inorder[:mid_index])
         root.right=self.buildTree(perorder[mid_index+1:],inorder[mid_index+1:])
         return root
-
-
-
